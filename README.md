@@ -17,8 +17,11 @@ boathouse 基础设施库，包括vm环境创建脚本，devops相关工具部�
 | 环境  |  说明  | 访问地址 | 登陆方式    | 密码    |
 | ------------ | ------------ |  ------------ | ------------ | ------------ |
 | azure linux 虚拟机  | Jenkins 服务器  | jenkins.devopshub.cn  | ssh localadmin@jenkins.devopshub.cn | 标准复杂  |
+| azure linux 虚拟机  | Jenkins slave   | 13.76.40.69  | ssh localadmin@13.76.40.69 | 标准复杂  |
 | azure linux 虚拟机 | 工具服务器，包括：jira、SonarQube、Nexus。流水线开发测试服务器，本机部署测试  | tools.devopshub.cn | ssh localadmin@tools.devopshub.cn | 标准复杂 |
-| k8s集群  | k8s集群，用于部署boathouse | k8s.devopshub.cn | ssh -i <ssh_key_file_path> localadmin@k8s.devopshub.cn | SSH key, 位置 \env\k8s\ssh_key\id_rsa |
+| azure linux 虚拟机  | 用于部署 boathouse dev环境   | 138.91.37.88  | ssh localadmin@138.91.37.88 | 标准复杂  |
+| k8s集群  | k8s集群，用于部署boathouse生产环境 | k8s.devopshub.cn | ssh -i <ssh_key_file_path> localadmin@k8s.devopshub.cn | SSH key, 位置 \env\k8s\ssh_key\id_rsa |
+
 
 
 ### 已经部署工具
