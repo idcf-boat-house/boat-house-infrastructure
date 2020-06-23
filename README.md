@@ -37,13 +37,16 @@ boathouse 基础设施库，包括vm环境创建脚本，devops相关工具部�
 
 
  - devops-tools：存放 devops领域相关工具的部署脚本
-    - jenkins-server　*脚本未迁移*
-    - sonaqube-server *脚本已迁移*
-    - nexus-server    *脚本未迁移*
-    - jira-server     *脚本未迁移*
-    - azure-devops-server
-    - gitlab-server
-    - github-enterprise-server
+    - jenkins-server
+    暂无脚本，配置请参考[文档](https://github.com/idcf-boat-house/boat-house/blob/master/docs/quick-start/operation/team-env-config.md)
+    - sonaqube-server 
+    脚本已迁移，参考[文档](https://github.com/idcf-boat-house/boat-house/blob/master/docs/quick-start/guide/sonarqube/Readme.md)
+    - nexus-server
+    暂无脚本，配置请参考[文档](https://github.com/idcf-boat-house/boat-house/blob/master/docs/quick-start/guide/nexus-deploy/Readme.md)
+    - jira-server,待补充
+    - azure-devops-server,待补充
+    - gitlab-server,待补充
+    - github-enterprise-server,待补充
   - environments： 存放程序运行所需的基础环境创建脚本，如虚拟机创建脚本、集群创建脚本等
 	- base-vm ：标准虚拟机创建脚本
 		- azure-arm-linux
