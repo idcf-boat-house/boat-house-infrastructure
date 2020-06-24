@@ -52,7 +52,7 @@ boathouse 基础设施库，包括vm环境创建脚本，devops相关工具部�
 		- azure-arm-linux
 	- boat-house： boat-house 运行所需的环境
 		- test(vm): boat-house 运行所需的测试环境         *脚本已迁移*
-		- production (k8s)：boat-house 运行所需的k8s环境  *脚本已迁移*
+		- production (k8s)：boat-house 运行所需的k8s环境，boathouse 部署至k8s 参考[这个文档](https://github.com/idcf-boat-house/boat-house/blob/master/docs/quick-start/operation/team-k8s-env-config.md)
 
 
 
