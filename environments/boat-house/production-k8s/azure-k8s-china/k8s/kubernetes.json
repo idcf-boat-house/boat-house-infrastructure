@@ -7,7 +7,7 @@
       },
       "masterProfile": {
         "count": 1,
-        "dnsPrefix": "%{dnsPrefix}%",
+        "dnsPrefix": "k8s-yuqcehkg",
         "vmSize": "Standard_B2ms"
       },
       "agentPoolProfiles": [
@@ -22,14 +22,17 @@
         "ssh": {
           "publicKeys": [
             {
-              "keyData": "%{sshRSAPublicKey}%"
+              "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCW8uymnriaRjeTcNN3CXNnXPCc2q5qEvtt+NlozPArQqTwNemiobrCaxt6WlMSvTQRuQ3K/DbB2y9nvDSA/XdBKXNvHxKJN2j6h/f0Eb6Oswdv9mHS5GC7JTWK872cuyrB80vQpg8UQMMiCLCRZFwD+9tiqJroya1SsqmOYqNakUm0Q/1LG2cr0H4x1d9FqFEtF9ZY3IZ5vY+ikLQvCHz0ndwaMVfs20EZuaDM50cx7zmiLuPCcL6DdhnxIWIGZjUDpqYkz9wmTFT0DDgqW/c1XYPnG9SxXFMz1TTUnW8nQ+2QKoNcheZL/5AD7xaiEPAJBO2DrmtpSlMDl51FBP6n info@leasoftx.com"
             }
           ]
         }
       },
       "servicePrincipalProfile": {
-        "clientId": "%{destApplicationId}%",
-        "secret": "%{destApplicationKey}%"
+        "clientId": "1e2f1978-bd0f-4fa6-a200-e7ccf5c8c2d8",
+        "secret": "T-.wd.33w31e5Ydl_~nhctO9_Z4-IQ3UbE"
       }
     }
   }
+
+
+
