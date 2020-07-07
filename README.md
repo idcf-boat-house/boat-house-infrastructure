@@ -14,24 +14,23 @@ boathouse 基础设施库，包括vm环境创建脚本，devops相关工具部�
 
 ### 环境
 
-| 环境  |  说明  | 访问地址 | 登陆方式    | 密码    |
-| ------------ | ------------ |  ------------ | ------------ | ------------ |
-| azure linux 虚拟机  | Jenkins 服务器  | jenkins.devopshub.cn  | ssh localadmin@jenkins.devopshub.cn | 标准复杂  |
-| azure linux 虚拟机  | Jenkins slave   | 13.76.40.69  | ssh localadmin@13.76.40.69 | 标准复杂  |
-| azure linux 虚拟机 | 工具服务器，包括：jira、SonarQube、Nexus。流水线开发测试服务器  | tools.devopshub.cn | ssh localadmin@tools.devopshub.cn | 标准复杂 |
-| azure linux 虚拟机  | 用于部署 boathouse dev环境   | 138.91.37.88  | ssh localadmin@138.91.37.88 | 标准复杂  |
-| k8s集群  | k8s集群，用于部署boathouse生产环境 | k8s.boat-house.cn | ssh localadmin@k8s.boat-house.cn | 标准复杂 |
 
+| Name | Description | SSH | Identity |
+|---------|---------|---------|---------|
+| Jenkins服务器 | Jenkins、Agent| ssh localadmin@ssh-jenkins.boat-house.cn| 标准复杂 |
+| Dev服务器 |  | ssh localadmin@ssh-dev.boat-house.cn| 标准复杂 |
+| 工具服务器 | Jira、Sonar、Nexus、Nginx | ssh localadmin@ssh-tools.boat-house.cn| 标准复杂 |
+| K8S |  | ssh localadmin@k8s.boat-house.cn	| 标准复杂 |
 
 
 ### 已经部署工具
 
 | 地址  | 说明  | 用户名密码 |
 | ------------ | ------------ | ------------ | 
-| http://jenkins.devopshub.cn  | Jenkins管理端  |  admin/标准复杂 | 
-| http://tools.devopshub.cn:8081 | Nexus  |  admin/标准复杂 |   
-| http://tools.devopshub.cn:9000| Sonarqube  |  admin/标准复杂 |   
-| http://tools.devopshub.cn  | Jira  |  admin/标准复杂 | 
+| http://tools-jenkins.boat-house.cn  | Jenkins管理端  |  admin/标准复杂 | 
+| http://tools-nexus.boat-house.cn | Nexus  |  admin/标准复杂 |   
+| http://tools-sonar.boat-house.cn | Sonarqube  |  admin/标准复杂 |   
+| http://tools-jira.boat-house.cn | Jira  |  admin/标准复杂 | 
 
 ## 目录结构
 
