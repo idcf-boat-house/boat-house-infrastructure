@@ -22,6 +22,9 @@ boathouse 基础设施库，包括vm环境创建脚本，devops相关工具部�
 | 工具服务器 | Jira、Sonar、Nexus、Nginx | ssh localadmin@ssh-tools.boat-house.cn| 标准复杂 |
 | K8S |  | ssh localadmin@k8s.boat-house.cn	| 标准复杂 |
 
+### 环境维护
+
+[请参考这（权限于维护团队）](https://github.com/idcf-boat-house/secret-files/blob/master/environment/readme.md)
 
 ### 已经部署工具
 
