@@ -20,8 +20,11 @@ boathouse 基础设施库，包括vm环境创建脚本，devops相关工具部�
 | Jenkins服务器 | Jenkins、Agent| ssh localadmin@ssh-jenkins.boat-house.cn| 标准复杂 |
 | Dev服务器 |  | ssh localadmin@ssh-dev.boat-house.cn| 标准复杂 |
 | 工具服务器 | Jira、Sonar、Nexus、Nginx | ssh localadmin@ssh-tools.boat-house.cn| 标准复杂 |
-| K8S |  | ssh localadmin@k8s.boat-house.cn	| 标准复杂 |
+| K8S | 用于部署boathouse 生产环境和测试环境 | ssh localadmin@k8s.boat-house.cn	| 标准复杂 |
 
+### 环境维护
+
+[请参考这（权限于维护团队）](https://github.com/idcf-boat-house/secret-files/blob/master/environment/readme.md)
 
 ### 已经部署工具
 
